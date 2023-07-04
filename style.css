@@ -1,0 +1,134 @@
+ 
+
+
+body{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin-top:100px;
+    background-color:darkslategrey
+}
+
+#title{
+    font-weight:bold;
+    background-color:gainsboro;
+    color: rgb(141, 141, 21);
+    
+}
+
+/*calculator*/
+#calculatorBody{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: solid 10px darkgray;
+    min-height:650px;
+    max-width:400px;
+    padding: 15px 30px 30px 30px;
+    background-color:gainsboro;
+    border-radius: 25px;
+}
+
+
+/*Updatable Display*/
+#displayArea{
+    display:flex;
+    flex-grow:1;
+    background-color:white;
+    padding:25px 15px;
+    border: solid 8px darkgray;
+    margin-bottom:15px;
+    height:70px;
+}
+
+.displayScreen{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-size:25px;
+}
+
+/*Numbers and operators*/
+#pad{
+    display:flex;
+    flex-grow: 1;
+    background-color:gainsboro;
+    border: solid 8px darkgray;
+    border-radius:5px;
+}
+
+/*Numbers*/
+.numbers{
+    background-color:rgb(113, 188, 190);
+    height:95px;
+    width:90px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-grow:1;
+    font-size:18px;
+}
+#decimal{
+    background-color:rgb(113, 188, 190);
+    height:95px;
+    width:90px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-grow:1;
+    font-size:18px;
+}
+.numberArea{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:gainsboro;
+}
+
+/*Operators*/
+.operators{
+    background-color: rgb(69, 116, 117);
+    color:rgb(211, 211, 35);
+    font-size:18px;
+    font-weight:bold;
+    height:85px;
+    width:110px;
+    
+}
+.operatorArea{
+    display:flex;
+    flex-direction: column;
+    background-color:gainsboro;
+}
+
+
+/*Equal, backspace, Clear*/
+#equal{
+    display:flex;
+    flex-grow: 1;
+    background-color: rgb(3, 172, 3);
+    justify-content:center;
+    align-items:center;
+    min-width:273px;
+    min-height:90px;
+    font-size:18px;
+}
+#clear{
+    display:flex;
+    flex-grow: 1;
+    background-color: rgb(202, 0, 0);
+    font-weight:bold;
+    font-size:18px;
+    justify-content:center;
+    align-items:center;
+}
+#backspace{
+    background-color:rgb(113, 188, 190);
+    height:95px;
+    width:90px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-grow:1;
+    font-size:18px;
+}
